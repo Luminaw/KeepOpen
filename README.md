@@ -18,6 +18,17 @@ Run the executable to start monitoring.
 - `-c, --console`: Keep the console window visible (useful for debugging).
 - `-h, --help`: Show the help message.
 
+## Startup
+
+KeepOpen can be configured to run automatically when you log in. A `setup.ps1` script is included in the build for this purpose.
+
+1. Open PowerShell as Administrator.
+2. Navigate to the folder containing `KeepOpen.exe`.
+3. Run: `.\setup.ps1`
+
+To remove KeepOpen from startup, run: `.\setup.ps1 -Uninstall`
+
+
 ## Configuration
 
 Settings are stored in `appsettings.json` in the application directory.
